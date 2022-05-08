@@ -1,3 +1,4 @@
+/* Função para reverter número*/
 function reverseNum(num) {
 	return (
     parseInt(
@@ -10,6 +11,7 @@ function reverseNum(num) {
   )
 }
 
+/* Função que faz o cálculo e mostra no console*/
 function showResult(){
 
   for (let i = 10; i < 1000000;  i++ ) {
@@ -27,6 +29,7 @@ function showResult(){
   }
         
 }
+/* Função que separa o numero com vírgula, faz o cálculo pra definir se a aula vai ser cancelada ou não e imprime no console*/
 function challenge2(){
   parametro1 = document.getElementById("studentTime").value
   parametro2 = document.getElementById("studentLimit").value
@@ -49,6 +52,7 @@ function challenge2(){
     console.log("Aula normal")
   }
 }
+/* Ainda não finalizado */
 function challenge3 (){
   numeroX = document.getElementById("N").value
   arrX = document.getElementById("vetorSoma").value
