@@ -46,14 +46,14 @@ function challenge2(){
   c = lateStudents.length
 
   if ( c  >= parametro2 ){
-    console.log("Aula cancelada")
+    document.getElementById("result2").innerHTML = "Aula cancelada"
 
   }
   else {
-    console.log("Aula normal")
+    document.getElementById("result2").innerHTML = "Aula normal"
   }
 }
-/* Ainda não finalizado */
+/* Não finalizado */
 function challenge3 (){
   numeroX = document.getElementById("N").value
   arrX = document.getElementById("vetorSoma").value
