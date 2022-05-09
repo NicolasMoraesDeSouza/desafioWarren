@@ -1,9 +1,11 @@
 .content{
    
-    max-width: 1280px;
-    display:flex;
+    /*Deixando os numeros centralizados e fazendo que quebrem linha*/
     padding: 0 48px 0 48px;
     flex-direction: column;
+    white-space: normal;
+    flex-wrap: wrap-reverse;
+    word-wrap:break-word;
 
 }
 * {
