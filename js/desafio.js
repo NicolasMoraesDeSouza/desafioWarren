@@ -14,19 +14,20 @@ function reverseNum(num) {
 /* Função que faz o cálculo e mostra no console*/
 function showResult(){
 
-  for (let i = 10; i < 1000000;  i++ ) {
+  for (let i = 10; i < 10000;  i++ ) {
     a = reverseNum(i)
     b = a + i
     mod = b % 2
     if(mod != 0){ 
       
-      console.log(b)
+      var values = values + "," + b;
 
     }
     else{
       
     }
   }
+  document.getElementById("result").innerHTML = values
         
 }
 /* Função que separa o numero com vírgula, faz o cálculo pra definir se a aula vai ser cancelada ou não e imprime no console*/
